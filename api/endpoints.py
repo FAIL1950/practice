@@ -14,8 +14,7 @@ from libs.context import ProcessingContextManager
 async def lifespan(app: FastAPI):
     with ProcessingContextManager() as ctx:
         ctx.another_log_msg("FastAPI server started.")
-    yield
-    with ProcessingContextManager() as ctx:
+        yield
         ctx.another_log_msg("FastAPI server shutdown.")
 
 app = FastAPI(lifespan=lifespan)

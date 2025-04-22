@@ -7,8 +7,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 from libs.context import ProcessingContextManager
 
 BOT_TOKEN = '7693452682:AAEMbLLbkVbwBqDZnDfNcMlaHXPUtJpaaUU'
-API_URL_1 = 'https://0a1a-178-215-166-252.ngrok-free.app/api/v1/get_summary'
-API_URL_2 = 'https://0a1a-178-215-166-252.ngrok-free.app/api/v1/get_contents_and_theses'
+API_URL_1 = 'https://8d79-178-215-166-252.ngrok-free.app/api/v1/get_summary'
+API_URL_2 = 'https://8d79-178-215-166-252.ngrok-free.app/api/v1/get_contents_and_theses'
 
 # user_id -> selected_endpoint
 user_states = {}
@@ -75,11 +75,11 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     with ProcessingContextManager() as ctx:
-        ctx.another_log_msg("Telegram bot starting...")
+        ctx.another_log_msg("Telegram bot started...")
         app = ApplicationBuilder().token(BOT_TOKEN).build()
         app.add_handler(CommandHandler("start", start))
         app.add_handler(CommandHandler("get_summary", get_summary))
         app.add_handler(CommandHandler("get_contents_and_theses", get_contents_and_theses))
         app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
         app.run_polling()
-        ctx.another_log_msg("Telegram bot successfully started.")
+        ctx.another_log_msg("Telegram bot successfully stopped.")

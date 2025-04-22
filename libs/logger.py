@@ -1,5 +1,4 @@
 import logging
-import os
 
 def get_logger(name: str, path):
     logger = logging.getLogger(name)

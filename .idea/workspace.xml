@@ -1,32 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6728c6cd-c0e6-45dd-862f-4c7ae9a96413" name="Changes" comment="" />
+    <list default="true" id="6728c6cd-c0e6-45dd-862f-4c7ae9a96413" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/contents.py" beforeDir="false" afterPath="$PROJECT_DIR$/prompts/contents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/prompts/summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get_contents.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get_contents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/get_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/get_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/llm.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/llm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegramBot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegramBot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FAIL1950&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FAIL1950/practice.git&quot;,
+    &quot;accountId&quot;: &quot;56fedf31-7a3e-4ad1-952e-52f9a979c22f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vt48vfll5lxesTve7Nyo2A76px" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.context.executor&quot;: &quot;Run&quot;,
+    &quot;Python.endpoints.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_contents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_summary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summary.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/univer/univer8/practice/services&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\univer\univer8\practice\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\univer\univer8\practice\api" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +107,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744950880822</updated>
-      <workItem from="1744950881849" duration="5000" />
+      <workItem from="1744950881849" duration="6872000" />
+      <workItem from="1744987875608" duration="606000" />
+      <workItem from="1744988492808" duration="3465000" />
+      <workItem from="1744994745386" duration="2574000" />
+      <workItem from="1745039693453" duration="3953000" />
+      <workItem from="1745049860019" duration="16770000" />
+      <workItem from="1745077248115" duration="6603000" />
+      <workItem from="1745087434003" duration="2252000" />
+      <workItem from="1745134821618" duration="16972000" />
+      <workItem from="1745162003940" duration="11640000" />
+      <workItem from="1745230260721" duration="3277000" />
+      <workItem from="1745243137401" duration="9368000" />
+      <workItem from="1745259503070" duration="1949000" />
+      <workItem from="1745261482201" duration="824000" />
+      <workItem from="1745262322553" duration="843000" />
+      <workItem from="1745299418722" duration="15583000" />
+      <workItem from="1745324342574" duration="9104000" />
+      <workItem from="1745338040075" duration="807000" />
+      <workItem from="1745338960353" duration="998000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/practice$logger.coverage" NAME="logger Coverage Results" MODIFIED="1744990853531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/practice$sum.coverage" NAME="sum Coverage Results" MODIFIED="1745339713038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/practice$llm.coverage" NAME="llm Coverage Results" MODIFIED="1745087101714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services" />
+    <SUITE FILE_PATH="coverage/practice$context.coverage" NAME="context Coverage Results" MODIFIED="1745152570351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/libs" />
+    <SUITE FILE_PATH="coverage/practice$bot.coverage" NAME="bot Coverage Results" MODIFIED="1745324039538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/telegramBot" />
+    <SUITE FILE_PATH="coverage/practice$summary.coverage" NAME="summary Coverage Results" MODIFIED="1745053229790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prompts" />
+    <SUITE FILE_PATH="coverage/practice$get_contents.coverage" NAME="get_contents Coverage Results" MODIFIED="1745260998275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/practice$contents.coverage" NAME="contents Coverage Results" MODIFIED="1745263139372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/practice$endpoints.coverage" NAME="endpoints Coverage Results" MODIFIED="1745321362399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/practice$get_summary.coverage" NAME="get_summary Coverage Results" MODIFIED="1745339244604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>

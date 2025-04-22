@@ -1,10 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Аналіз документів</title>
+  <style>
+  #result {
+    max-width: 90vw;        /* не шире 90% экрана */
+    max-height: 50vh;       /* максимум половина высоты экрана */
+    overflow: auto;         /* прокрутка если нужно */
+    white-space: pre-wrap;  /* сохраняет переносы и делает перенос длинных строк */
+    word-break: break-word; /* переносит длинные слова */
+    border: 1px solid #ccc;
+    padding: 1em;
+    background: #f9f9f9;
+    font-family: monospace;
+  }
+</style>
 </head>
 <body>
-$END$
+  <h1>Завантаження документа для аналізу</h1>
+
+  <form id="uploadForm">
+    <label for="file">Оберіть файл:</label><br><br>
+    <input type="file" id="file" name="file" accept=".txt" required><br><br><br><br>
+
+    <label for="analysis">Тип аналізу:</label>
+    <select id="analysis" name="analysis">
+      <option value="summary">Підсумок</option>
+      <option value="keywords">Зміст та тези</option>
+    </select><br><br>
+
+    <button type="submit">Проаналізувати</button>
+  </form>
+
+  <h2>Результат:</h2>
+  <pre id="result"></pre>
+
+  <script>
+  const form = document.getElementById('uploadForm');
+  const resultDiv = document.getElementById('result');
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const fileInput = document.getElementById('file');
+    const file = fileInput.files[0];
+    const analysisType = document.getElementById('analysis').value;
+
+    if (!file) {
+      alert("Будь ласка, оберіть файл.");
+      return;
+    }
+
+    if (!file.name.endsWith('.txt')) {
+      alert("Файл має бути у форматі .txt");
+      return;
+    }
+
+    const text = await file.text();
+
+    const endpoint = analysisType === "summary"
+      ? "/api/v1/get_summary"
+      : "/api/v1/get_contents_and_theses";
+
+    resultDiv.textContent = "В процесі обробки..."
+
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      });
+
+      if (!response.ok) {
+        throw new Error("Помилка при аналізі файлу");
+      }
+
+      const result = await response.json();
+      resultDiv.textContent = result.summary || result.contents_and_theses || "Результат відсутній.";
+    } catch (error) {
+      resultDiv.textContent = "Сталася помилка: " + error.message;
+    }
+  });
+</script>
+
+
 </body>
 </html>
